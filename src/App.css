@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+#root {
+    scroll-behavior: smooth;
+    background-color: white;
+}
+
+#nav {
+    background-color: black;
+}
+
+#nav-brand {
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+#nav-link {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav-link-dropdown {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav-link-active {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+#hero {
+    background-color: black;
+    padding-bottom: 10rem;
+}
+
+#hero-heading {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+}
+
+#hero-para {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero-btn {
+    color: black;
+    background-color: white;
+    border-radius: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    width: 9rem;
+}
+
+/* #hero-card {
+    margin-top: 4rem;
+} */
+
+#hero-card-img {
+    background-color: #f0eee4;
+    border-radius: 0.4rem;
+}
+
+/* #hero-2 {
+    /* height: 100vh; */
+    /* background-color: #f0eee4; */
+/* } */
+
+#hero-heading-2 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+}
+
+#hero-para-2 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero-btn-2 {
+    color: white;
+    background-color: black;
+    border-radius: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    width: 12rem;
+}
+
+#foot {
+    background-color: black;
+}
+
+#foot-logo {
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+#copyright-logo {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#foot-nav-link {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#price {
+    background-color: black;
+    height: 26rem;
+}
+
+#price-heading {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+}
+
+#price-para {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#price-card {
+    margin-top: -8rem;
+}
+
+#price-card-1-heading {
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+#price-card-1-rs {
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+#price-card-1-li {
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+#price-card-1-btn {
+    border-radius: 2rem;
+    border-color: black;
+    color: black;
+}
+
+#price-card-1-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+#price-card-2-heading {
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+#price-card-2-rs {
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+#price-card-2-li {
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+#price-card-2-btn {
+    border-radius: 2rem;
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+#price-card-3-heading {
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+#price-card-3-rs {
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+#price-card-3-li {
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+#price-card-3-btn {
+    border-radius: 2rem;
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+#price-card-3-border {
+    border-color: lightgray;
+    background-color: lightgray;
+}
+
+#price-card-3-heading-bg {
+    background-color: lightgray;
+}
+
+#contact {
+    background-color: black;
+    height: 26rem;
+}
+
+#contact-white-portion {
+    background-color: whitesmoke;
+    border-radius: 0.6rem;
+    margin-top: -14rem;
+}
+
+#contact-heading {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+}
+
+#contact-heading-para {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#contact-para {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+#about {
+    background-color: black;
+    height: 26rem;
+}
+
+/* #about-white-portion {
+    background-color: whitesmoke;
+    border-radius: 0.6rem;
+    margin-top: -8rem;
+} */
+
+#about-heading {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+}
+
+#about-heading-para {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#about-para {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero-video-container {
+    border-radius: 0.6rem;
+}
+
+#hero-video {
+    margin-top: -10rem;
+}
+
+/* #hero-heading-subheading {
+    margin-top: -2rem;
+} */
+
+#middle-para {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+#hero-para-heading {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+#hero-para-heading-2 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+#hero-para-heading-3 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+#hero-para-heading-4 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+#email-img {
+    width: 2rem;
+    height: 2rem;
+}
+
+#facebook-img {
+    width: 2rem;
+    height: 2rem;
+}
+
+#instagram-img {
+    width: 2rem;
+    height: 2rem;
+}
+
+#call-img {
+    width: 2rem;
+    height: 2rem;
+}
+
+#showcase {
+    background-color: black;
+}
+
+#showcase-para-heading {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#showcase-heading {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+}
+
+#showcase-para {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#price-compare-heading {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+#price-compare-img {
+    width: 1rem;
+    height: 1rem;
+}
+
+#price-compare-column-heading {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+#price-compare-row-heading {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero-img-company-name {
+    width: 2rem;
+    height: 2rem;
+}
+
+#hero-para-company-name {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#img-para-1 {
+    width: 15rem;
+    height: 15rem;
+}
+
