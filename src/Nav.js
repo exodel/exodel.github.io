@@ -15,23 +15,6 @@ function Nav() {
   return (
     <>
         <section id='nav'>
-            {/* <div className='container px-2'>
-                <div className="container">
-                    <header className="d-flex flex-wrap justify-content-center py-3">
-                    <Link to="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                        <span className="fs-4" id='nav-brand'>exodel co.</span>
-                    </Link>
-
-                    <ul className="nav nav-pills">
-                        <li className="nav-item"><Link to="/" className="nav-link" id='nav-link'>Home</Link></li>
-                        <li className="nav-item"><Link to="/pricing" className="nav-link" id='nav-link'>Pricing</Link></li>
-                        <li className="nav-item"><Link to="/contact" className="nav-link" id='nav-link'>Contact</Link></li>
-                        <li className="nav-item"><Link to="/about" className="nav-link" id='nav-link'>About</Link></li>
-                        <li className="nav-item"><Link to="/product" className="nav-link active" aria-current="page" id='nav-link-active'>Products</Link></li>                    </ul>
-                    </header>
-                </div>
-            </div> */}
-
             <div className='container py-2'>
                 <nav className="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
                     <div className="container-fluid px-5">
@@ -55,7 +38,7 @@ function Nav() {
                             <li className="nav-item">
                             <Link className="nav-link" to="/about" id='nav-link'>About</Link>
                             </li>
-                            <li className="nav-item dropdown">
+                            {/* <li className="nav-item dropdown">
                                 <Link className="nav-link dropdown-toggle" id='nav-link' to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Services
                                 </Link>
@@ -63,7 +46,7 @@ function Nav() {
                                     <li><Link className="dropdown-item" to="/primary-services" id='nav-link-dropdown'>Primary services</Link></li>
                                     <li><Link className="dropdown-item" to="/additional-services" id='nav-link-dropdown'>Additonal services</Link></li>
                                 </ul>
-                            </li>
+                            </li> */}
                         </ul>
                         <ul className="navbar-nav justify-content-end">
                             <li className="nav-item">

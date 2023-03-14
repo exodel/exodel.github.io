@@ -7,8 +7,6 @@ import Price from './Price.js';
 import Contact from './Contact.js';
 import About from './About.js';
 import ReactGA from 'react-ga';
-// import { Helmet } from 'react-helmet';
-// import Product from './Product.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -24,7 +22,6 @@ function App() {
           <Route exact path='/pricing' element={<Price/>}></Route>
           <Route exact path='/contact' element={<Contact/>}></Route>
           <Route exact path='/about' element={<About/>}></Route>
-          {/* <Route exact path='/product' element={<Product/>}></Route> */}
         </Routes>
         <Foot/>
       </BrowserRouter>
