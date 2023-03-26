@@ -7,16 +7,18 @@
 }
 
 #nav {
-    background-color: black;
+    background-color: white;
+    /* background: transparent; */
 }
 
 #nav-brand {
-    color: white;
+    color: black;
     font-family: 'Comfortaa', cursive;
+    font-size: 1.6rem;
 }
 
 #nav-link {
-    color: white;
+    color: black;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -26,50 +28,87 @@
 }
 
 #nav-link-active {
-    color: black;
+    color: white;
     font-family: 'Poppins', sans-serif;
-    background-color: white;
+    background-color: #3978D3;
+    border-width: 0.06rem;
+    border-style: solid;
     border-radius: 2rem;
 }
 
 #hero {
     background-color: black;
+    background: url('./3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
     padding-bottom: 10rem;
 }
 
 #hero-heading {
-    color: white;
+    color: black;
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
 }
 
 #hero-para {
-    color: white;
+    color: black;
     font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+#hero-para-company {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
 }
 
 #hero-btn {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+#hero-btn-container {
+    background-color: #3978D3;
+    border-radius: 2rem;
+}
+
+#para-btn {
     color: black;
-    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+}
+
+#hero-btn-2 {
+    color: white;
+    background-color: transparent;
     border-radius: 2rem;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    width: 9rem;
+    border-color: #3978D3;
+    border-width: 0.06rem;
+    border-style: solid;
+    transition: 0.2s;
+    /* width: 9rem; */
 }
 
-/* #hero-card {
-    margin-top: 4rem;
+/* #hero-btn:hover {
+    box-shadow: 0rem 0rem 2rem 0.6rem #3978D3;
+} */
+
+#img-hero {
+    margin-top: -10rem;
+}
+
+/* #img-card-hero {
+    box-shadow: 0.2rem 0.2rem 4rem 0.2rem #3978D3;
 } */
 
 #hero-card-img {
     background-color: #f0eee4;
     border-radius: 0.4rem;
 }
-
-/* #hero-2 {
-    /* height: 100vh; */
-    /* background-color: #f0eee4; */
-/* } */
 
 #hero-heading-2 {
     color: black;
@@ -211,19 +250,39 @@
 
 #contact {
     background-color: black;
-    height: 26rem;
 }
 
-#contact-white-portion {
+/* #contact-white-portion {
     background-color: whitesmoke;
     border-radius: 0.6rem;
     margin-top: -14rem;
+} */
+
+#gmail-btn {
+    color: white;
+    background-color: #3978D3;
+    border-radius: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#meta-btn {
+    color: white;
+    background-color: #3978D3;
+    border-radius: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#instagram-btn {
+    color: white;
+    background-color: #3978D3;
+    border-radius: 2rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 #contact-heading {
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 #contact-heading-para {
@@ -267,12 +326,19 @@
     border-radius: 0.6rem;
 }
 
-#hero-video {
-    margin-top: -10rem;
+#hero-video-col {
+    border-style: solid;
+    border-width: 0.06rem;
+    border-color: #3978D3;
+    border-radius: 0.6rem;
 }
 
-/* #hero-heading-subheading {
-    margin-top: -2rem;
+#hero-video {
+    margin-top: -4rem;
+}
+
+/* #hero-primary {
+    background-color: #3978D3;
 } */
 
 #middle-para {
@@ -373,4 +439,60 @@
 #img-para-1 {
     width: 15rem;
     height: 15rem;
+}
+
+/* #img-container {
+    background: url("./hero-5.png");
+} */
+
+#img-features {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+#para-features {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    border-style: solid;
+    border-width: 0.06rem;
+    border-color: #3978D3;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+#col-card {
+    border-style: solid;
+    border-width: 0.06rem;
+    border-color: #3978D3;
+    background-color: transparent;
+    border-radius: 0.6rem;
+}
+
+#heading-card {
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+#para-card {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+}
+
+#img-card {
+    width: 3rem;
+    height: 3rem;
+}
+
+#heading-main-card {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+}
+
+#heading-left-aligned-section {
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    color: black;
 }
